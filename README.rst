@@ -9,6 +9,10 @@ django-appconf
     :alt: Build Status
     :target: https://github.com/django-compressor/django-appconf/actions/workflows/tests.yml
 
+.. image:: https://badge.fury.io/py/django-appconf.svg
+    :alt: PyPI version
+    :target: https://pypi.org/project/django-appconf/
+
 A helper class for handling configuration defaults of packaged Django
 apps gracefully.
 
