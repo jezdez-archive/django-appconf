@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # django-appconf documentation build configuration file, created by
 # sphinx-quickstart on Thu Aug 25 14:26:22 2011.
@@ -40,8 +39,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-appconf'
-copyright = u'2011-2013, Jannis Leidel and individual contributors'
+project = 'django-appconf'
+copyright = '2011-2013, Jannis Leidel and individual contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -182,8 +181,8 @@ htmlhelp_basename = 'django-appconfdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'django-appconf.tex', u'django-appconf Documentation',
-   u'Jannis Leidel and individual contributors', 'manual'),
+  ('index', 'django-appconf.tex', 'django-appconf Documentation',
+   'Jannis Leidel and individual contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -215,8 +214,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-appconf', u'django-appconf Documentation',
-     [u'Jannis Leidel and individual contributors'], 1)
+    ('index', 'django-appconf', 'django-appconf Documentation',
+     ['Jannis Leidel and individual contributors'], 1)
 ]
 
 
