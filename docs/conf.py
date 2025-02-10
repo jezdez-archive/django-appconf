@@ -1,4 +1,3 @@
-#
 # django-appconf documentation build configuration file, created by
 # sphinx-quickstart on Thu Aug 25 14:26:22 2011.
 #
