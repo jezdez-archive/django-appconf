@@ -29,7 +29,7 @@ setup(
     license='BSD',
     url='https://django-appconf.readthedocs.io/',
     packages=['appconf'],
-    python_requires='>=3.10',
+    python_requires='>=3.9',
     install_requires=['django'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -41,6 +41,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
