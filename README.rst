@@ -1,10 +1,6 @@
 django-appconf
 ==============
 
-.. image:: http://codecov.io/github/django-compressor/django-appconf/coverage.svg?branch=develop
-    :alt: Code Coverage
-    :target: http://codecov.io/github/django-compressor/django-appconf?branch=develop
-
 .. image:: https://github.com/django-compressor/django-appconf/actions/workflows/tests.yml/badge.svg
     :alt: Build Status
     :target: https://github.com/django-compressor/django-appconf/actions/workflows/tests.yml
