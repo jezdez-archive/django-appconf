@@ -1,13 +1,13 @@
 django-appconf
 ==============
 
-.. image:: http://codecov.io/github/django-compressor/django-appconf/coverage.svg?branch=develop
-    :alt: Code Coverage
-    :target: http://codecov.io/github/django-compressor/django-appconf?branch=develop
-
-.. image:: https://secure.travis-ci.org/django-compressor/django-appconf.svg?branch=develop
+.. image:: https://github.com/django-compressor/django-appconf/actions/workflows/tests.yml/badge.svg
     :alt: Build Status
-    :target: http://travis-ci.org/django-compressor/django-appconf
+    :target: https://github.com/django-compressor/django-appconf/actions/workflows/tests.yml
+
+.. image:: https://badge.fury.io/py/django-appconf.svg
+    :alt: PyPI version
+    :target: https://pypi.org/project/django-appconf/
 
 A helper class for handling configuration defaults of packaged Django
 apps gracefully.
