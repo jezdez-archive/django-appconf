@@ -1,6 +1,19 @@
 Changelog
 =========
 
+1.1.0 (2025-02-13)
+------------------
+
+Version 1.1 updates the Python and Django support (test) matrix once more:
+
+* Dropped official support for Python 3.7 and 3.8.
+
+* Dropped official support for Django 3.2, 4.0, 4.1, and 5.0.
+
+* Added official support for Django 5.2.
+
+* Updated some old code to use more modern conventions.
+
 1.0.6 (2023-11-20)
 ------------------
 
