@@ -5,7 +5,7 @@ from django.core.exceptions import ImproperlyConfigured
 from .utils import import_attribute
 
 
-class AppConfOptions(object):
+class AppConfOptions:
 
     def __init__(self, meta, prefix=None):
         self.prefix = prefix
@@ -18,7 +18,7 @@ class AppConfOptions(object):
     def prefixed_name(self, name):
         if name.startswith(self.prefix.upper()):
             return name
-        return "%s_%s" % (self.prefix.upper(), name.upper())
+        return "{}_{}".format(self.prefix.upper(), name.upper())
 
     def contribute_to_class(self, cls, name):
         cls._meta = self
@@ -29,7 +29,7 @@ class AppConfOptions(object):
 class AppConfMetaClass(type):
 
     def __new__(cls, name, bases, attrs):
-        super_new = super(AppConfMetaClass, cls).__new__
+        super_new = super().__new__
         parents = [b for b in bases if isinstance(b, AppConfMetaClass)]
         if not parents:
             return super_new(cls, name, bases, attrs)

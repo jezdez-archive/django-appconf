@@ -1,7 +1,7 @@
 from appconf import AppConf
 
 
-class CustomHolder(object):
+class CustomHolder:
     HOLDER_VALUE = True
 
 custom_holder = CustomHolder()
